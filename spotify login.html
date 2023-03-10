@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>SPOTIFY</title>
+
+        <link  rel="stylesheet" type="text/css" href="CSS/normalise.css">
+        <link  rel="stylesheet" type="text/css" href="CSS/fontawesome-free-6.3.0-web/css/all.min.css">
+        <link  rel="stylesheet" type="text/css" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link  rel="stylesheet" type="text/css" href="CSS/spotify.css">
+    </head>
+    <body>
+      <div id="full">
+        <div id="container">
+          <div class="dropdown">
+            <i class="fa fa-ellipsis-v"  onclick="myFunction()"></i>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">setting</a>
+              <a href="#">Help </a>
+              <a href="#">FAQ</a>
+            </div>
+          </div>
+          <div id="pic"> 
+            <h1>spotify</h1>
+          </div>
+          <h2>Log in to continue.</h2>
+          <div>
+            <form>
+              <div >
+                <i class="fa fa-user"></i>
+                <input class="input" type="email" placeholder="Emial or Username" >
+              </div>          
+              <div >
+                <i class="fa fa-lock"></i>
+                <input class="input " type="Password" placeholder="password" >
+              </div> 
+              <a class="link" href="stuff.html">Reset Password</a><br>
+              <div>
+                <p class="rem">Remember me</p> 
+                <label class="switch">
+                  <input type="checkbox"><span class="slider round"></span>
+                </label>
+              </div>
+              <div id="log">
+                <a class="span1" href="#">
+                  <button class="btn btn-dark"> LOG IN</button>
+                </a><br>
+              </div>  
+              <div id="center">OR</div> 
+              <div>
+                <div class="btn">
+                  <a href="#" class="btn btn-info ">Continue with Facebook</a><br>
+                  <a href="#" class="btn btn-info ">Continue with Google</a><br>
+                  <a href="#" class="btn btn-info">Continue with Apple</a><br>
+                </div>
+              </div>
+              <div class="foot">
+                <p>Don't have an account?
+                  <a class="link" href="login.html">SIGNUP
+                  </a><br>
+                </p>   
+                <div class="class">
+                  Setting<a href="spotify.html"><span class="fa fa-cog"></span></a>
+                  
+                </div>
+              </div>
+            
+            </form>
+          </div>
+        </div>  
+      </div>
+
+
+
+      <script src="javaScript/jquery/jquery-3.6.3.js"></script>      
+      <!-- <script src="//code.jquery.com/jquery-3.6.3.slim.min.js"></script> -->
+      <script src="javaScript/spotify.js"></script> 
+      <script type="text/javascript" src="bootstrap-5.0.2-dist/js/bootstrap.min.js">
+      </script>
+    </body>
+</html>   
